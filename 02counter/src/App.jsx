@@ -9,7 +9,10 @@ function App() {
 
   const addValue = () => {
     if(count < 20){
-      setCount(count + 1)
+      setCount( prevCount => prevCount +1);
+      setCount( prevCount => prevCount +1);
+      setCount( prevCount => prevCount +1);
+      setCount( prevCount => prevCount +1);
     }
   }
 
